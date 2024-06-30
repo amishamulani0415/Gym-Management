@@ -1,0 +1,42 @@
+.member-list {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.member-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.member-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.member-list ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.member-list ul li:last-child {
+    border-bottom: none;
+}
+
+.member-list button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.member-list button:hover {
+    background-color: #0056b3;
+}

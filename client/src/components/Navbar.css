@@ -1,0 +1,43 @@
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+h1{
+    color: aliceblue;
+    text-align: left;
+    align-items: left;
+}
+
+.navbar ul li {
+    margin: 20px 20px;
+}
+
+.navbar ul li a,
+.navbar ul li button {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: right;
+    text-align: right;
+}
+
+.navbar ul li button {
+    background-color: transparent;
+}
+
+.navbar ul li a:hover,
+.navbar ul li button:hover {
+    background-color: #0056b3;
+}
